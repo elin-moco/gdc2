@@ -1,0 +1,27 @@
+from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy.ext.declarative import declarative_base
+
+
+Base = declarative_base()
+
+
+class GitHubEvent(Base):
+    __tablename__ = 'event'
+
+    pk = Column(Integer, primary_key=True)
+    id = Column(Integer, index=True, unique=False)
+    url = Column(String)
+    created_at = Column(String, index=True, unique=False)
+    type = Column('type', String, index=True, unique=False)
+    actor_id = Column(String)
+    actor_login = Column(String)
+    actor_gravatar_id = Column(String)
+    actor_location = Column(String, index=True, unique=False)
+    repo_name = Column(String)
+    repo_url = Column(String, index=True, unique=False)
+
+    def __init__(self, **kwargs):
+        for k in kwargs:
+            if isinstance(kwargs[k], basestring):
+                kwargs[k].strip()
+            setattr(self, k, kwargs[k])
