@@ -28,6 +28,12 @@ def location_data(location):
         return (lat, lng)
     return None
 
+def get_country(location):
+    if location in LOCATIONS and LOCATIONS[location] is not None and len(LOCATIONS[location]) > 0:
+        return LOCATIONS[location][0]['address']['country']
+    return None
+    
+
 def main(filepath):
     data = {}
 
@@ -35,6 +41,7 @@ def main(filepath):
         reader = unicodecsv.DictReader(f)
         for row in reader:
             loc = cleanup_location(row['actor_attributes_location'])
+            loc = get_country(loc)
             lang = row['repository_language']
             url = format_repo(row['repository_url'])
             user = row['actor_attributes_login']
