@@ -43,6 +43,10 @@ geocode:
 	@echo "www/data/locations.json written"
 
 
+toprepos:
+	sqlite3 github-events.db < queries/toprepos.sql > toprepos.csv
+
+
 github:
 	ghp-import www
 	git push origin gh-pages
