@@ -1,4 +1,4 @@
-.PHONY: githubarchive tests loaddb jsonify geocode github
+.PHONY: githubarchive tests loaddb toprepos geocode jsonify github
 
 
 all: tests
