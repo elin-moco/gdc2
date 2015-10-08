@@ -5,6 +5,18 @@ all: tests
 
 
 # Must have required Python packages
+new-loadgeo:
+	@echo "Loading githubarchive data into local database."
+	@echo "One month of data takes about one hour on my SSD."
+	python gdc2-new/loadgeo.py
+
+
+new-loaddb:
+	@echo "Loading githubarchive data into local database."
+	@echo "One month of data takes about one hour on my SSD."
+	python gdc2-new/loaddb.py
+
+
 loaddb:
 	@echo "Loading githubarchive data into local database."
 	@echo "One month of data takes about one hour on my SSD."
@@ -16,7 +28,7 @@ githubarchive:
 	mkdir -p githubarchive
 
 	# Requires bash 4+ MacOS users may need to update or something
-	cd githubarchive && wget http://data.githubarchive.org/2013-{01..04}-{01..31}-{0..23}.json.gz
+	cd githubarchive && wget 'http://data.githubarchive.org/2014-{10..12}-{01..31}-{0..23}.json.gz'
 
 
 jsonify:
