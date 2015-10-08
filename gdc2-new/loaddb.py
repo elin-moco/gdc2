@@ -5,8 +5,7 @@ import argparse
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from models import Base
-from models2 import GitHubEvent
+from models import Base,GitHubEvent
 from archiveparser import GitHubArchiveParser
 
 FORMAT = '%(asctime)-15s %(message)s'
