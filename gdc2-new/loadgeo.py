@@ -14,6 +14,16 @@ FORMAT = '%(asctime)-15s %(message)s'
 logging.basicConfig(format=FORMAT)
 
 
+def update_login_country(session, login):
+    print login
+    events = session.query(GitHubEvent).filter(GitHubEvent.actor_login == login).all()
+    print len(events)
+    for event in events:
+      event.actor_location = get_login_location(login)
+    session.add_all(events)
+    session.commit()
+    time.sleep(1)
+
 
 if __name__ == '__main__':
 
@@ -24,15 +34,9 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    logins = session.query(distinct(GitHubEvent.actor_login))
+    logins = session.query(distinct(GitHubEvent.actor_login)).all()
 
-    for loginRec in logins.all():
-      login = loginRec[0]
-      print login
-      events = session.query(GitHubEvent).filter(GitHubEvent.actor_login == login).all()
-      print len(events)
-      for event in events:
-        event.actor_location = get_login_location(login)
-      session.add_all(events)
-      session.commit()
-      time.sleep(1)
+    print len(logins)
+    for loginRec in logins:
+        login = loginRec[0]
+        update_login_country(session, login)
