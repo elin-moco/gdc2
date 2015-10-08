@@ -45,6 +45,10 @@ geocode:
 
 toprepos:
 	sqlite3 github-events.db < queries/toprepos.sql > toprepos.csv
+	python gdc2/toprepos.py toprepos.csv
+	cat queries/events.sql.head toprepos.txt queries/events.sql.tail > queries/events.sql
+	cat queries/locations.sql.head toprepos.txt queries/locations.sql.tail > queries/locations.sql
+	@echo "queries/events.sql,queries/locations.sql written"
 
 
 github:
