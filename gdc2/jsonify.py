@@ -29,7 +29,7 @@ def location_data(location):
     return None
 
 def get_country(location):
-    if location in LOCATIONS and LOCATIONS[location] is not None and len(LOCATIONS[location]) > 0:
+    if location in LOCATIONS and LOCATIONS[location] is not None and len(LOCATIONS[location]) > 0 and 'address' in LOCATIONS[location][0] and 'country' in LOCATIONS[location][0]['address']:
         return LOCATIONS[location][0]['address']['country']
     return None
     
