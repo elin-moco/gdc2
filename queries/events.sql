@@ -56,6 +56,7 @@ WHERE
     'https://github.com/git/git',
     'https://github.com/angular/angular-seed',
     'https://github.com/AFNetworking/AFNetworking',
+    'https://github.com/EllisLab/CodeIgniter',
     'https://github.com/adobe/brackets',
     'https://github.com/FortAwesome/Font-Awesome',
     'https://github.com/saasbook/hw3_rottenpotatoes',
@@ -82,6 +83,7 @@ WHERE
     'https://github.com/mitsuhiko/flask',
     'https://github.com/facebookarchive/facebook-php-sdk',
     'https://github.com/jquery/jquery-ui',
+    'https://github.com/facebook/facebook-php-sdk',
     'https://github.com/nostra13/Android-Universal-Image-Loader',
     'https://github.com/harvesthq/chosen',
     'https://github.com/imathis/octopress',
@@ -134,10 +136,10 @@ WHERE
     'https://github.com/mozilla/pdf.js',
     'https://github.com/dypsilon/frontend-dev-bookmarks',
     'https://github.com/yiisoft/yii2',
-    'https://github.com/ariya/phantomjs',
-    'https://github.com/popcorn-time/popcorn-app',
-    'https://github.com/eternicode/bootstrap-datepicker',
     'https://github.com/learnstreet-dev/learnstreet',
+    'https://github.com/popcorn-time/popcorn-app',
+    'https://github.com/ariya/phantomjs',
+    'https://github.com/eternicode/bootstrap-datepicker',
     'https://github.com/progit/progit',
     'https://github.com/goagent/goagent',
     'https://github.com/apache/spark',
@@ -217,9 +219,7 @@ WHERE
     'https://github.com/ipython/ipython',
     'https://github.com/chriskempson/tomorrow-theme',
     'https://github.com/facebookarchive/three20',
-    'https://github.com/rust-lang/rust',
-    'https://github.com/Shopify/active_merchant',
-    'https://github.com/moodle/moodle'  )
+    'https://github.com/rust-lang/rust'  )
   AND repository_fork = 0
   AND "type" IS NOT NULL
   AND repository_language IS NOT NULL
