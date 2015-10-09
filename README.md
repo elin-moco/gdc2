@@ -1,12 +1,11 @@
 Where does open source come from?
 =================================
 
-Sometimes a [picture](http://davidfischer.github.io/gdc2/) is worth a thousand
+Sometimes a [picture](http://elin-moco.github.io/gdc2/) is worth a thousand
 words.
 
-This interactive visualization of the location of contributors to the
-top repositories on GitHub was my entry to the
-[GitHub Data Challenge](https://github.com/blog/1450-the-github-data-challenge-ii)
+This is an interactive visualization of the location of contributors to the
+top repositories on GitHub.
 
 
 Developing
@@ -37,6 +36,8 @@ the unique set of locations to geocode.
 
 Credits
 -------
+
+* Forked from [David Fischer](https://github.com/davidfischer/gdc2)'s earlier work.
 
 * Geocoding by [Nominatim](http://wiki.openstreetmap.org/wiki/Nominatim),
   &copy; OpenStreetMap contributors.
