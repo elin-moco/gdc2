@@ -1,0 +1,120 @@
+United States of America:	44702
+United Kingdom:	6827
+Deutschland:	6242
+Canada:	3933
+Nederland:	3414
+中国:	2530
+España:	2459
+台灣:	2084
+Россия:	2041
+Australia:	1741
+Brasil:	1368
+日本:	1356
+Danmark:	1136
+Україна:	1097
+Italia:	903
+India:	840
+Portugal:	820
+Sverige:	682
+Polska:	617
+대한민국:	578
+Colombia:	568
+Suomi:	477
+France:	476
+New Zealand/Aotearoa:	466
+Panamá:	424
+България:	416
+România:	403
+Argentina:	327
+Indonesia:	315
+Norge:	214
+Česko:	210
+מדינת ישראל:	191
+Armenia:	185
+Беларусь:	163
+Singapura:	155
+Philippines:	151
+Uruguay:	148
+Hrvatska:	148
+Türkiye:	142
+Hong Kong:	136
+Venezuela:	125
+مصر:	114
+Lietuva:	110
+Magyarország:	108
+Republic of Ireland:	89
+South Africa:	78
+Malaysia:	72
+Србија:	69
+‏ايران‎:	65
+México:	58
+বাংলাদেশ:	51
+Việt Nam:	46
+Slovensko:	46
+Costa Rica:	42
+Eesti:	34
+Slovenija:	32
+Chile:	31
+Moldova:	28
+Oʻzbekiston:	25
+تونس:	24
+Latvija:	21
+Algérie الجزائر:	21
+حدود ‏المملكة العربية السعودية‎:	19
+Sesel:	19
+Ecuador:	18
+Казахстан:	17
+Azərbaycan:	15
+조선민주주의인민공화국/North Korea:	13
+Ísland:	13
+Puerto Rico:	12
+Maroc المغرب:	11
+الإمارات العربيّة المتّحدة:	10
+ပြည်ထောင်စုမြန်မာနိုင်ငံတော်‌:	10
+Κύπρος - Kıbrıs:	9
+Молдова:	9
+საქართველო:	9
+Kenya:	9
+Cuba:	9
+ประเทศไทย:	8
+República Dominicana:	8
+Luxembourg:	7
+Nicaragua:	7
+Liberia:	7
+الأردن:	7
+Македонија:	7
+Ghana:	6
+Nigeria:	6
+Монгол улс:	6
+Crna Gora:	6
+Gibraltar:	5
+‏الكويت‎:	5
+Кыргызстан:	4
+République démocratique du Congo:	4
+Paraguay:	4
+Cayman Islands:	4
+Malta:	3
+Κύπρος:	2
+Jamaica:	2
+Mali:	2
+Rwanda:	2
+Guatemala:	2
+Liechtenstein:	2
+Тоҷикистон:	2
+Macao:	2
+Madagasikara:	2
+Trinidad and Tobago:	1
+ព្រះរាជាណាចក្រកម្ពុជា (Cambodia):	1
+Bénin:	1
+Bosna i Hercegovina:	1
+ليبيا:	1
+Bahamas:	1
+‏قطر‎:	1
+Palestinian Territory:	1
+Monaco:	1
+Isle of Man:	1
+Yemen:	1
+السودان - Sudan:	1
+Guernsey:	1
+ປະເທດລາວ:	1
+Botswana:	1
