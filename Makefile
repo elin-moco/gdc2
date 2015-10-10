@@ -17,6 +17,28 @@ new-loaddb:
 	python gdc2-new/loaddb.py
 
 
+new-toprepos:
+	sqlite3 github-events-new.db < queries/toprepos-new.sql > toprepos-new.csv
+	python gdc2-new/toprepos.py toprepos-new.csv
+	cat queries/users.sql.head toprepos-new.txt queries/users.sql.tail > queries/users.sql
+	@echo "queries/users.sql written"
+
+
+new-topusers:
+	sqlite3 github-events-new.db < queries/users.sql > users.csv
+	@echo "users.csv written"
+
+
+save-repos:
+	python gdc2-new/saverepos.py toprepos-new.csv
+	@echo "repos.json written"
+
+
+save-users:
+	python gdc2-new/saveusers.py users.csv
+	@echo "users.json written"
+
+
 loaddb:
 	@echo "Loading githubarchive data into local database."
 	@echo "One month of data takes about one hour on my SSD."
