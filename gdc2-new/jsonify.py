@@ -14,6 +14,20 @@ except IOError:
     sys.stderr.write('www/data/locations.json should be there\n')
     sys.exit(1)
 
+try:
+    with open('users.json', 'r') as f:
+        USERS = json.loads(f.read())
+except IOError:
+    sys.stderr.write('users.json should be there\n')
+    sys.exit(1)
+
+try:
+    with open('repos.json', 'r') as f:
+        REPOS = json.loads(f.read())
+except IOError:
+    sys.stderr.write('repos.json should be there\n')
+    sys.exit(1)
+
 
 def cleanup_location(location):
     return ' '.join(location.replace(',', ' ').replace('.', ' ').split())
