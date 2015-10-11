@@ -27,6 +27,7 @@
     <script type="text/javascript" src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="visualize.css">
+    <script type="text/javascript" src="data/sort.js"></script>
     <script type="text/javascript" src="repos.js"></script>
     <script type="text/javascript" src="visualize.js"></script>
   </head>
@@ -59,7 +60,9 @@
       <p class="text-right">
         <small>Use the scroll wheel to zoom in and out</small>
       </p>
-
+      <h2>Top 10 Countries by <span id="contrib-type"></span> Contributions</h2>
+      <ol id="top10">
+      </ol>
       <p class="lead">
         GitHub's <a href="https://github.com/timeline">public timeline</a>
         summarizes the open source work of millions of developers the world
