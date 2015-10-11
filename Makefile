@@ -21,12 +21,24 @@ new-toprepos:
 	sqlite3 github-events-new.db < queries/toprepos-new.sql > toprepos-new.csv
 	python gdc2-new/toprepos.py toprepos-new.csv
 	cat queries/users.sql.head toprepos-new.txt queries/users.sql.tail > queries/users.sql
+	cat queries/events-new.sql.head toprepos-new.txt queries/events-new.sql.tail > queries/events-new.sql
 	@echo "queries/users.sql written"
 
 
 new-topusers:
 	sqlite3 github-events-new.db < queries/users.sql > users.csv
 	@echo "users.csv written"
+
+
+new-geocode:
+	python gdc2-new/userlocs.py
+	python gdc2/geocoder.py locations.csv
+
+
+new-jsonify:
+	sqlite3 github-events-new.db < queries/events-new.sql > events-new.csv
+	python gdc2-new/jsonify.py events-new.csv
+	@echo "www/data/events-new.json written"
 
 
 save-repos:

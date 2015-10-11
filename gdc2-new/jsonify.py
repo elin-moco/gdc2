@@ -30,10 +30,9 @@ except IOError:
 
 
 def cleanup_location(location):
-    return ' '.join(location.replace(',', ' ').replace('.', ' ').split())
-
-def format_repo(repo_url):
-    return repo_url.replace('https://github.com/', '')
+    if location:
+        return ' '.join(location.replace(',', ' ').replace('.', ' ').split())
+    return None
 
 def location_data(location):
     if location in LOCATIONS and LOCATIONS[location] is not None and len(LOCATIONS[location]) > 0:
@@ -42,16 +41,32 @@ def location_data(location):
         return (lat, lng)
     return None
 
+def get_country(location):
+    if location in LOCATIONS and LOCATIONS[location] is not None and len(LOCATIONS[location]) > 0 and 'address' in LOCATIONS[location][0] and 'country' in LOCATIONS[location][0]['address']:
+        return LOCATIONS[location][0]['address']['country']
+    return None
+
 def main(filepath):
     data = {}
 
     with open(filepath, 'r') as f:
         reader = unicodecsv.DictReader(f)
         for row in reader:
-            loc = cleanup_location(row['actor_attributes_location'])
-            lang = row['repository_language']
-            url = format_repo(row['repository_url'])
-            user = row['actor_attributes_login']
+            login = row['actor_login']
+            if login not in USERS:
+                continue
+            loc = USERS[login]['location']
+            if loc is None:
+                continue
+            loc = cleanup_location(loc)
+            loc = get_country(loc)
+            repo_url = row['repo_url']
+            if repo_url not in REPOS:
+                continue
+            repo = REPOS[repo_url]
+            lang = repo['language']
+            url = row['repo_name']
+            user = row['actor_login']
 
             if loc not in data:
                 geo = location_data(loc)
@@ -86,7 +101,7 @@ def main(filepath):
             data[loc]['users'] = [u[0] for u in sorted(data[loc]['users'].items(), lambda x, y: cmp(y[1], x[1]))][:3]
             output.append(data[loc])
 
-    with open('www/data/events.json', 'w') as f:
+    with open('www/data/events-new.json', 'w') as f:
         f.write(json.dumps(output, indent=1))
 
 
