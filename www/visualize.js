@@ -3,6 +3,8 @@
 $(document).ready(function() {
   "use strict";
 
+  var CURRENT_QUALTER = '2015Q3';
+  var REPOSITORIES = [];
   var ALL_COUNTRIES;
   var LANGUAGES = [
     "All",
@@ -79,31 +81,35 @@ $(document).ready(function() {
              "<p class=\"tt_all_only\"><label>Top languages:</label><span id=\"tt_languages_value\"></span></p>"].join("")
       );
 
-  // Load languages into clickable links
-  d3.select("#language-list").selectAll("li")
-    .data(LANGUAGES).enter()
-    .append("li")
-      .attr("class", function(d) { return d === "All" ? "active" : ""; })
-    .append("a")
-      .attr("href", function(d) { return "#languages/" + d.replace(/\+/g, "_"); })
-      .text(function(d) { return d; })
-      .attr("id", function(d) { return "languages-" + d.replace(/\+/g, "_"); })
-      .on("click", function() {
-        $("#language-list li").removeClass("active");
-        $(this).parent().addClass("active");
-        return true;
-      });
+  var buildFilters = function() {
+    // Load languages into clickable links
+    d3.select("#language-list").selectAll("li").remove();
+    d3.select("#language-list").selectAll("li")
+      .data(LANGUAGES).enter()
+      .append("li")
+        .attr("class", function(d) { return d === "All" ? "active" : ""; })
+      .append("a")
+        .attr("href", function(d) { return "#"+CURRENT_QUALTER+"/languages/" + d.replace(/\+/g, "_"); })
+        .text(function(d) { return d; })
+        .attr("id", function(d) { return "languages-" + d.replace(/\+/g, "_"); })
+        .on("click", function() {
+          $("#language-list li").removeClass("active");
+          $(this).parent().addClass("active");
+          return true;
+        });
 
-  // Load repositories into a select input
-  d3.select("#repository-list")
-    .on("change", function() {
-        window.location.hash = "#repositories/" + $(this).val();
-      })
-    .selectAll("option")
-    .data(REPOSITORIES).enter()
-    .append("option")
-      .attr("value", function(d) { return d; })
-      .text(function(d) { return d; });
+    // Load repositories into a select input
+    d3.select("#repository-list").selectAll("option").remove();
+    d3.select("#repository-list")
+      .on("change", function() {
+          window.location.hash = "#"+CURRENT_QUALTER+"/repositories/" + $(this).val();
+        })
+      .selectAll("option")
+      .data(REPOSITORIES).enter()
+      .append("option")
+        .attr("value", function(d) { return d; })
+        .text(function(d) { return d; });
+  }
 
   $("#filter-selector button").on("click", function() {
     $(".radio-filter").hide();
@@ -112,8 +118,18 @@ $(document).ready(function() {
 
 
   var hashchangehandler = function() {
+    var getqualter = function() {
+      var qregex = /^\#([a-zA-Z0-9]+)\/(languages|repositories)\/[a-zA-Z0-9\-\_\+\.\/]+$/;
+      var qres = qregex.exec(window.location.hash);
+
+      if (qres !== null) {
+        return qres[1];
+      }
+      return null;
+    };
+
     var getlang = function() {
-      var langregex = /^\#languages\/([a-zA-Z0-9\-\+\_\.]+)$/;
+      var langregex = /^\#[a-zA-Z0-9]+\/languages\/([a-zA-Z0-9\-\+\_\.]+)$/;
       var langres = langregex.exec(window.location.hash);
 
       if (langres !== null) {
@@ -124,7 +140,7 @@ $(document).ready(function() {
 
     var getrepo = function() {
       // TODO: doens't handle non-ascii names at all
-      var reporegex = /^\#repositories\/([a-zA-Z0-9\-\_\+\.\/]+)$/;
+      var reporegex = /^\#[a-zA-Z0-9]+\/repositories\/([a-zA-Z0-9\-\_\+\.\/]+)$/;
       var repores = reporegex.exec(window.location.hash);
 
       if (repores !== null) {
@@ -201,45 +217,59 @@ $(document).ready(function() {
       });
     }
 
+    if (getqualter() !== CURRENT_QUALTER) {
+      CURRENT_QUALTER = getqualter();
+      svg.selectAll(".dot").remove();
+    }
+    $('#qualter-list > li').removeClass('active');
+    $('#'+CURRENT_QUALTER).addClass('active');
+    $('.qualter').text(CURRENT_QUALTER);
+
     if ($("circle.dot").length > 0) {
       listTop10Countries(ALL_COUNTRIES);
       svg.selectAll("circle.dot")
         .transition()
         .attr("r", scaler);
     } else {
-      d3.json("data/events.json", function (data) {
-        ALL_COUNTRIES = data;
-        listTop10Countries(ALL_COUNTRIES);
-        svg.selectAll(".dots")
-          .data(data).enter()
-          .append("circle")
-          .attr("class", "dot")
-          .attr("r", scaler)
-          .attr("transform", function(d) {
-            var coord = [d['lng'], d['lat']];
-            return "translate(" + projection(coord).join(",") + ")";
-          })
-          .on("mouseover", function(d) {
-            var m = d3.mouse(d3.select("body").node());
-            tooltip.style("display", null)
-                .style("left", m[0] + 30 + "px")
-                .style("top", m[1] - 20 + "px");
-            $("#tt_location_value").text(d["name"]);
-            $("#tt_contributions_value").text(contributions(d));
-            if (getlang() === "All") {
-              $(".tt_all_only").show();
-              $("#tt_contributors_value").text(d["users"].join(", "));
+      d3.json("data/events-"+CURRENT_QUALTER+".json", function (data) {
+        d3.json("data/repos-"+CURRENT_QUALTER+".json", function (repoData) {
+          ALL_COUNTRIES = data;
+          REPOSITORIES = repoData;
 
-              // top repositories
-              $("#tt_repositories_value").text(topthree(d["repositories"]).join(", "));
-              $("#tt_languages_value").text(topthree(d["languages"]).join(", "));
-            } else {
-              $(".tt_all_only").hide();
-            }
+          buildFilters();
+
+          listTop10Countries(ALL_COUNTRIES);
+          svg.selectAll(".dots")
+            .data(data).enter()
+            .append("circle")
+            .attr("class", "dot")
+            .attr("r", scaler)
+            .attr("transform", function(d) {
+              var coord = [d['lng'], d['lat']];
+              return "translate(" + projection(coord).join(",") + ")";
             })
-            .on("mouseout", function() {
-              tooltip.style("display", "none");
-            });
+            .on("mouseover", function(d) {
+              var m = d3.mouse(d3.select("body").node());
+              tooltip.style("display", null)
+                  .style("left", m[0] + 30 + "px")
+                  .style("top", m[1] - 20 + "px");
+              $("#tt_location_value").text(d["name"]);
+              $("#tt_contributions_value").text(contributions(d));
+              if (getlang() === "All") {
+                $(".tt_all_only").show();
+                $("#tt_contributors_value").text(d["users"].join(", "));
+
+                // top repositories
+                $("#tt_repositories_value").text(topthree(d["repositories"]).join(", "));
+                $("#tt_languages_value").text(topthree(d["languages"]).join(", "));
+              } else {
+                $(".tt_all_only").hide();
+              }
+              })
+              .on("mouseout", function() {
+                tooltip.style("display", "none");
+              });
+        });
       });
     }
   };
@@ -248,7 +278,8 @@ $(document).ready(function() {
 
   // Default page to load is all languages
   if (window.location.hash === "") {
-    window.location.hash = "#languages/All";
+    window.location.hash = "#"+CURRENT_QUALTER+"/languages/All";
+    $('#'+CURRENT_QUALTER).addClass('active');
   } else {
     hashchangehandler();
   }

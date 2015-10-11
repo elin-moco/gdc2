@@ -1,4 +1,4 @@
-window.REPOSITORIES = [
+[
   "",
   "jtleek/datasharing",
   "octocat/Spoon-Knife",
@@ -200,4 +200,4 @@ window.REPOSITORIES = [
   "chriskempson/tomorrow-theme",
   "facebookarchive/three20",
   "rust-lang/rust"
-];
+]
