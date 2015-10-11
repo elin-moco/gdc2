@@ -188,6 +188,7 @@ $(document).ready(function() {
         .attr("r", scaler);
     } else {
       d3.json("data/events.json", function (data) {
+        console.log(data);
         svg.selectAll(".dots")
           .data(data).enter()
           .append("circle")
