@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>2014 Q4 Open Source Contributions Map</title>
+    <title>Open Source Contributions Map</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="David Fischer">
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="visualize.css">
 
     <!-- Google Analytics -->
     <script>
@@ -25,10 +26,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.0.8/d3.min.js"></script>
     <script type="text/javascript" src="http://d3js.org/topojson.v0.min.js"></script>
     <script type="text/javascript" src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="visualize.css">
     <script type="text/javascript" src="data/sort.js"></script>
-    <script type="text/javascript" src="repos.js"></script>
     <script type="text/javascript" src="visualize.js"></script>
   </head>
 
@@ -36,9 +34,16 @@
   <body>
     <div class="container" style="width: 960px">
 
-      <h1>2014 Q4 Open Source Contributions Map</h1>
+      <h1><span class="qualter"></span> Open Source Contributions Map</h1>
 
       <div class="well" style="">
+        <strong style="font-size: 1.2em; margin-right: 20px;">Qualter</strong>
+        <div style="margin-left: 40px; margin-top: 10px">
+          <ul class="nav nav-pills" id="qualter-list">
+            <li id="2015Q3"><a href="#2015Q3/languages/All">2015Q3</a></li>
+            <li id="2014Q4"><a href="#2014Q4/languages/All">2014Q4</a></li>
+          </ul>
+        </div>
 
         <strong style="font-size: 1.2em; margin-right: 20px;">Filter by</strong>
 
@@ -60,7 +65,7 @@
       <p class="text-right">
         <small>Use the scroll wheel to zoom in and out</small>
       </p>
-      <h2>Top 10 Countries by <span id="contrib-type"></span> Contributions</h2>
+      <h2><span class="qualter"></span> Top 10 Countries by <span id="contrib-type"></span> Contributions</h2>
       <ol id="top10">
       </ol>
       <p class="lead">

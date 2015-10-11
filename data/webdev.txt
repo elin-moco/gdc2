@@ -1,0 +1,104 @@
+United States of America:	22042
+日本:	7175
+España:	3622
+United Kingdom:	3226
+Canada:	1858
+Nederland:	904
+台灣:	559
+Deutschland:	542
+Australia:	464
+India:	323
+中国:	321
+Россия:	248
+Panamá:	177
+Türkiye:	143
+ပြည်ထောင်စုမြန်မာနိုင်ငံတော်‌:	125
+Sverige:	112
+Polska:	102
+Brasil:	92
+Colombia:	86
+מדינת ישראל:	81
+Portugal:	76
+Suomi:	66
+Україна:	57
+대한민국:	54
+New Zealand/Aotearoa:	51
+Danmark:	50
+Norge:	46
+France:	44
+Česko:	44
+Italia:	41
+Hong Kong:	30
+تونس:	30
+Singapura:	26
+South Africa:	23
+Philippines:	22
+Republic of Ireland:	21
+România:	20
+Беларусь:	20
+Slovenija:	18
+България:	17
+Lietuva:	16
+‏ايران‎:	16
+Slovensko:	14
+México:	13
+Eesti:	12
+Magyarország:	12
+Argentina:	12
+Србија:	12
+Indonesia:	12
+Việt Nam:	9
+Latvija:	7
+বাংলাদেশ:	6
+Puerto Rico:	6
+Uruguay:	6
+Ísland:	5
+Chile:	5
+Oʻzbekiston:	5
+Algérie الجزائر:	4
+Costa Rica:	4
+Moldova:	3
+Казахстан:	3
+Luxembourg:	2
+საქართველო:	2
+Maldives:	2
+República Dominicana:	2
+Malta:	2
+Ecuador:	2
+조선민주주의인민공화국/North Korea:	2
+Malaysia:	2
+Nigeria:	1
+الإمارات العربيّة المتّحدة:	1
+Armenia:	1
+Venezuela:	1
+Bolivia:	1
+Hrvatska:	1
+Kenya:	1
+Crna Gora:	1
+Honduras:	1
+Монгол улс:	1
+Barbados:	1
+Македонија:	1
+Bosna i Hercegovina:	0
+‏الكويت‎:	0
+Azərbaycan:	0
+Nicaragua:	0
+O'zbekiston:	0
+Bermuda:	0
+Uganda:	0
+Ghana:	0
+ประเทศไทย:	0
+Liberia:	0
+Yemen:	0
+Κύπρος - Kıbrıs:	0
+Молдова:	0
+Maroc المغرب:	0
+Gibraltar:	0
+Guatemala:	0
+Κύπρος:	0
+Isle of Man:	0
+حدود ‏المملكة العربية السعودية‎:	0
+Cuba:	0
+Paraguay:	0
+Sesel:	0
+الأردن:	0

@@ -1,0 +1,104 @@
+United States of America:	181675
+Deutschland:	85454
+Italia:	27284
+Україна:	19990
+United Kingdom:	14487
+Canada:	13244
+日本:	9998
+中国:	6948
+España:	5876
+Polska:	4121
+Nederland:	3648
+India:	3552
+Australia:	2509
+Россия:	2032
+Sverige:	1781
+Argentina:	1419
+Brasil:	1213
+Česko:	1102
+台灣:	924
+Hong Kong:	775
+Norge:	767
+Republic of Ireland:	703
+South Africa:	579
+Suomi:	538
+France:	461
+Portugal:	445
+Danmark:	430
+Eesti:	428
+Colombia:	412
+Slovenija:	411
+България:	405
+Türkiye:	343
+대한민국:	319
+מדינת ישראל:	304
+New Zealand/Aotearoa:	272
+México:	210
+Magyarország:	204
+Venezuela:	202
+Singapura:	197
+Lietuva:	195
+Panamá:	183
+Hrvatska:	156
+Philippines:	134
+ပြည်ထောင်စုမြန်မာနိုင်ငံတော်‌:	127
+Costa Rica:	125
+România:	102
+Беларусь:	97
+Slovensko:	71
+‏ايران‎:	70
+Indonesia:	66
+Việt Nam:	59
+Србија:	46
+Chile:	42
+Malta:	38
+Uruguay:	38
+Malaysia:	38
+Latvija:	37
+تونس:	34
+Luxembourg:	32
+বাংলাদেশ:	26
+Puerto Rico:	22
+Казахстан:	22
+Nigeria:	20
+Armenia:	18
+Κύπρος - Kıbrıs:	15
+Cuba:	14
+Ecuador:	12
+الأردن:	12
+საქართველო:	12
+الإمارات العربيّة المتّحدة:	11
+Ísland:	11
+Kenya:	10
+Moldova:	8
+Oʻzbekiston:	8
+República Dominicana:	8
+Algérie الجزائر:	7
+Maldives:	6
+Isle of Man:	6
+Azərbaycan:	5
+حدود ‏المملكة العربية السعودية‎:	5
+Guatemala:	5
+Crna Gora:	4
+Sesel:	4
+조선민주주의인민공화국/North Korea:	4
+Paraguay:	3
+Liberia:	3
+Gibraltar:	2
+Nicaragua:	2
+Македонија:	2
+Barbados:	2
+Bolivia:	2
+Bosna i Hercegovina:	2
+Κύπρος:	2
+Ghana:	2
+Maroc المغرب:	2
+‏الكويت‎:	2
+Yemen:	1
+Honduras:	1
+Uganda:	1
+Монгол улс:	1
+O'zbekiston:	1
+Молдова:	1
+Bermuda:	1
+ประเทศไทย:	1

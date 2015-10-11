@@ -1,0 +1,104 @@
+United States of America:	9363
+中国:	4760
+Deutschland:	1859
+Nederland:	573
+Australia:	377
+Suomi:	282
+Česko:	160
+Sverige:	160
+España:	119
+Norge:	101
+United Kingdom:	83
+Россия:	77
+India:	72
+Polska:	71
+Italia:	64
+Costa Rica:	64
+Canada:	63
+Philippines:	59
+Argentina:	59
+Portugal:	49
+Brasil:	30
+日本:	30
+Україна:	29
+България:	24
+台灣:	23
+대한민국:	16
+Malta:	15
+México:	14
+New Zealand/Aotearoa:	13
+Danmark:	13
+מדינת ישראל:	10
+România:	9
+Colombia:	9
+Magyarország:	8
+Hong Kong:	7
+South Africa:	7
+Ecuador:	5
+Türkiye:	5
+Republic of Ireland:	3
+Việt Nam:	3
+Latvija:	3
+الإمارات العربيّة المتّحدة:	3
+Slovensko:	3
+Hrvatska:	3
+Беларусь:	3
+Eesti:	2
+Singapura:	2
+France:	2
+‏ايران‎:	1
+Puerto Rico:	1
+Uganda:	1
+República Dominicana:	1
+Venezuela:	1
+Lietuva:	1
+Paraguay:	1
+Algérie الجزائر:	0
+Kenya:	0
+ประเทศไทย:	0
+Luxembourg:	0
+Gibraltar:	0
+Nigeria:	0
+Sesel:	0
+Maroc المغرب:	0
+Yemen:	0
+Chile:	0
+Indonesia:	0
+‏الكويت‎:	0
+Казахстан:	0
+حدود ‏المملكة العربية السعودية‎:	0
+O'zbekiston:	0
+Azərbaycan:	0
+Maldives:	0
+საქართველო:	0
+Liberia:	0
+বাংলাদেশ:	0
+Moldova:	0
+Guatemala:	0
+Κύπρος:	0
+Isle of Man:	0
+الأردن:	0
+Uruguay:	0
+Монгол улс:	0
+Oʻzbekiston:	0
+Armenia:	0
+Македонија:	0
+Nicaragua:	0
+Slovenija:	0
+Молдова:	0
+Panamá:	0
+Србија:	0
+تونس:	0
+ပြည်ထောင်စုမြန်မာနိုင်ငံတော်‌:	0
+Κύπρος - Kıbrıs:	0
+Ghana:	0
+Ísland:	0
+조선민주주의인민공화국/North Korea:	0
+Crna Gora:	0
+Honduras:	0
+Bermuda:	0
+Bolivia:	0
+Barbados:	0
+Bosna i Hercegovina:	0
+Cuba:	0
+Malaysia:	0
