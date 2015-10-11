@@ -54,3 +54,26 @@
   font-weight: bold;
   padding-right: 10px;
 }
+#top10 {
+
+}
+
+li.country {
+}
+
+ul.country-details {
+  position: absolute;
+  display: none;
+  margin-left: 100px;
+  padding: 10px;
+  color: #FFF;
+  background-color: #A7A7A7;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+}
+ul.country-details li {
+  list-style-type: none;
+}
+li.country:hover > ul.country-details {
+  display: block;
+}
