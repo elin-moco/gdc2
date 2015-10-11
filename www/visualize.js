@@ -81,13 +81,13 @@ $(document).ready(function() {
              "<p class=\"tt_all_only\"><label>Top languages:</label><span id=\"tt_languages_value\"></span></p>"].join("")
       );
 
-  var buildFilters = function() {
+  var buildFilters = function(lang, repo) {
     // Load languages into clickable links
     d3.select("#language-list").selectAll("li").remove();
     d3.select("#language-list").selectAll("li")
       .data(LANGUAGES).enter()
       .append("li")
-        .attr("class", function(d) { return d === "All" ? "active" : ""; })
+        .attr("class", function(d) { return d === lang ? "active" : ""; })
       .append("a")
         .attr("href", function(d) { return "#"+CURRENT_QUALTER+"/languages/" + d.replace(/\+/g, "_"); })
         .text(function(d) { return d; })
@@ -108,6 +108,7 @@ $(document).ready(function() {
       .data(REPOSITORIES).enter()
       .append("option")
         .attr("value", function(d) { return d; })
+        .attr("selected", function(d) { return d === repo ? "selected" : null; })
         .text(function(d) { return d; });
   }
 
@@ -133,7 +134,8 @@ $(document).ready(function() {
       var langres = langregex.exec(window.location.hash);
 
       if (langres !== null) {
-        return langres[1];
+        langres = langres[1].replace(/_/g, '+');
+        return langres;
       }
       return null;
     };
@@ -236,7 +238,7 @@ $(document).ready(function() {
           ALL_COUNTRIES = data;
           REPOSITORIES = repoData;
 
-          buildFilters();
+          buildFilters(getlang(), getrepo());
 
           listTop10Countries(ALL_COUNTRIES);
           svg.selectAll(".dots")
