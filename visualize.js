@@ -3,6 +3,7 @@
 $(document).ready(function() {
   "use strict";
 
+  var ALL_COUNTRIES;
   var LANGUAGES = [
     "All",
     "JavaScript",
@@ -181,14 +182,34 @@ $(document).ready(function() {
       });
     };
 
+    var listTop10Countries = function(data) {
+      var contribType = getlang() || getrepo();
+      $('#contrib-type').text(contribType);
+      var top10 = sortCountriesByContributionType(contribType, data).slice(0, 10);
+      var top10Elem = $('#top10');
+      top10Elem.empty();
+      top10.forEach(function(country) {
+        var countryElem = document.createElement('li');
+        countryElem.setAttribute('class', 'country');
+        countryElem.innerHTML = '<b>'+country['name']+'</b><ul class="country-details">'+
+        '<li><b>Contributions:</b> '+contributions(country)+'</li>'+
+        '<li><b>Top Users:</b> '+country['users'].join(', ')+'</li>'+
+        '<li><b>Top Repositories:</b> '+topthree(country['repositories']).join(', ')+'</li>'+
+        '<li><b>Top Languages:</b> '+topthree(country['languages']).join(', ')+'</li>'+
+        '</ul>'
+        top10Elem.append(countryElem);
+      });
+    }
 
     if ($("circle.dot").length > 0) {
+      listTop10Countries(ALL_COUNTRIES);
       svg.selectAll("circle.dot")
         .transition()
         .attr("r", scaler);
     } else {
       d3.json("data/events.json", function (data) {
-        console.log(data);
+        ALL_COUNTRIES = data;
+        listTop10Countries(ALL_COUNTRIES);
         svg.selectAll(".dots")
           .data(data).enter()
           .append("circle")
