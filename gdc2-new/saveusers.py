@@ -38,17 +38,24 @@ def fetch_user(login):
 if __name__ == '__main__':
 
     OUTFILE = 'users.json'
-    users = {}
+    try:
+        with open(OUTFILE, 'r') as f:
+            users = json.loads(f.read())
+        print "Found %s with %d users" %(OUTFILE, len(outs.keys()))
+    except Exception:
+        users = {}
 
     with open(sys.argv[1]) as f:
         reader = unicodecsv.DictReader(f)
         for row in reader:
-            print row['actor_login']
-            user = fetch_user(row['actor_login'])
-            print user
-            time.sleep(1)
-            if user:
-                users[row['actor_login']] = user
+            login = row['actor_login']
+            print login
+            if login and login not in users:
+                user = fetch_user(login)
+                print user
+                time.sleep(1)
+                if user:
+                    users[login] = user
     
     with open(OUTFILE, 'w') as f:
         f.write(json.dumps(users, indent=1))

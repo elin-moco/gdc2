@@ -36,13 +36,18 @@ def fetch_repo(repo_name):
 if __name__ == '__main__':
 
     OUTFILE = 'repos.json'
-    repos = {}
+    try:
+        with open(OUTFILE, 'r') as f:
+            repos = json.loads(f.read())
+        print "Found %s with %d repos" %(OUTFILE, len(outs.keys()))
+    except Exception:
+        repos = {}
 
     with open(sys.argv[1]) as f:
         reader = unicodecsv.DictReader(f)
         for row in reader:
             repo_url = row['repo_url']
-            if repo_url.startswith(REPO_API_URL):
+            if repo_url.startswith(REPO_API_URL) and repo_url not in repos:
                 repo_name = repo_url[len(REPO_API_URL):]
                 print repo_name
                 repo = fetch_repo(repo_name)
