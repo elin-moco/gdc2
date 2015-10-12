@@ -2,10 +2,13 @@
 .mode csv
 
 
--- Gets the contributions
+-- Gets the "contribution" events
 -- for any of the top 200 repos
-SELECT DISTINCT
-  actor_login, COUNT(actor_login) AS cnt
+SELECT "type",
+  repo_name,
+  repo_url,
+  actor_login,
+  actor_gravatar_id
 FROM event
 WHERE
   type IN (
@@ -217,5 +220,4 @@ WHERE
     'https://api.github.com/repos/rouault/gdal_coverage'  )
   AND "type" IS NOT NULL
   AND repo_url IS NOT NULL
-  AND actor_login IS NOT NULL
-  ORDER BY cnt DESC;
+  AND actor_login IS NOT NULL;
