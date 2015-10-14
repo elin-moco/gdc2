@@ -10,7 +10,7 @@ GITHUB_URL = 'https://api.github.com/repos/'
 if __name__ == '__main__':
 
     OUTFILE = 'toprepos-new.txt'
-    OUTFILE2 = 'www/data/repos-new.js'
+    OUTFILE2 = 'www/data/repos-new.json'
     repos = ''
     repo_names = '[\n  "",\n'
 
