@@ -22,7 +22,7 @@ new-toprepos:
 	python gdc2-new/toprepos.py toprepos-new.csv
 	cat queries/users.sql.head toprepos-new.txt queries/users.sql.tail > queries/users.sql
 	cat queries/events-new.sql.head toprepos-new.txt queries/events-new.sql.tail > queries/events-new.sql
-	@echo "queries/users.sql written"
+	@echo "queries/users.sql, queries/events-new.sql written"
 
 
 new-topusers:

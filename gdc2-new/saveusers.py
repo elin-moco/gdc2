@@ -41,8 +41,9 @@ if __name__ == '__main__':
     try:
         with open(OUTFILE, 'r') as f:
             users = json.loads(f.read())
-        print "Found %s with %d users" %(OUTFILE, len(outs.keys()))
-    except Exception:
+        print "Found %s with %d users" %(OUTFILE, len(users.keys()))
+    except Exception as e:
+        print e
         users = {}
 
     with open(sys.argv[1]) as f:
