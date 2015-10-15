@@ -637,20 +637,6 @@
   ]
  }, 
  {
-  "name": "O'zbekiston", 
-  "repositories": {
-   "CocoaPods/Specs": 1
-  }, 
-  "languages": {
-   "Groff": 1
-  }, 
-  "lat": 41.32373, 
-  "lng": 63.9528098, 
-  "users": [
-   "Shamsiddin"
-  ]
- }, 
- {
   "name": "M\u00e9xico", 
   "repositories": {
    "FreeCodeCamp/freecodecamp": 1, 
@@ -2451,20 +2437,6 @@
   ]
  }, 
  {
-  "name": "\u041c\u043e\u043b\u0434\u043e\u0432\u0430", 
-  "repositories": {
-   "ansible/ansible": 1
-  }, 
-  "languages": {
-   "Python": 1
-  }, 
-  "lat": 47.286747, 
-  "lng": 28.5110236, 
-  "users": [
-   "vitaliel"
-  ]
- }, 
- {
   "name": "\u0421\u0440\u0431\u0438\u0458\u0430", 
   "repositories": {
    "golang/go": 1, 
@@ -3831,12 +3803,14 @@
  {
   "name": "Moldova", 
   "repositories": {
+   "ansible/ansible": 1,
    "OpenRA/OpenRA": 2, 
    "callemall/material-ui": 3, 
    "Homebrew/homebrew": 2, 
    "golang/go": 1
   }, 
   "languages": {
+   "Python": 1,
    "Go": 1, 
    "C#": 2, 
    "JavaScript": 3, 
@@ -3965,15 +3939,18 @@
  {
   "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2", 
   "repositories": {
+   "FreeCodeCamp/freecodecamp": 15,
    "rails/rails": 2
   }, 
   "languages": {
+   "HTML": 15,
    "Ruby": 2
   }, 
   "lat": 34.9823018, 
   "lng": 33.1451285, 
   "users": [
-   "mariosant"
+   "mariosant",
+   "cristianvnica"
   ]
  }, 
  {
@@ -4106,12 +4083,14 @@
    "FortAwesome/Font-Awesome": 1, 
    "angular/material": 1, 
    "joomla/joomla-cms": 1, 
-   "yiisoft/yii2": 1
+   "yiisoft/yii2": 1,
+   "CocoaPods/Specs": 1
   }, 
   "languages": {
    "HTML": 1, 
    "JavaScript": 5, 
-   "PHP": 2
+   "PHP": 2,
+   "Groff": 1
   }, 
   "lat": 41.32373, 
   "lng": 63.9528098, 
@@ -4480,20 +4459,6 @@
    "terminalmage", 
    "nelson6e65", 
    "guamacherox"
-  ]
- }, 
- {
-  "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 - K\u0131br\u0131s", 
-  "repositories": {
-   "FreeCodeCamp/freecodecamp": 15
-  }, 
-  "languages": {
-   "HTML": 15
-  }, 
-  "lat": 35.1695632, 
-  "lng": 33.1396402839342, 
-  "users": [
-   "cristianvnica"
   ]
  }, 
  {

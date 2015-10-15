@@ -2657,29 +2657,6 @@
   ]
  }, 
  {
-  "name": "\u041c\u043e\u043b\u0434\u043e\u0432\u0430", 
-  "repositories": {
-   "joyent/node": 3, 
-   "Automattic/socket.io": 1, 
-   "yiisoft/yii2": 2, 
-   "symfony/symfony": 1, 
-   "diaspora/diaspora": 1, 
-   "laravel/framework": 1
-  }, 
-  "languages": {
-   "Ruby": 1, 
-   "PHP": 4, 
-   "JavaScript": 4
-  }, 
-  "lat": 47.286747, 
-  "lng": 28.5110236, 
-  "users": [
-   "smart--petea", 
-   "hpetru", 
-   "vova07"
-  ]
- }, 
- {
   "name": "Liechtenstein", 
   "repositories": {
    "zendframework/zf2": 2
@@ -4029,20 +4006,25 @@
  {
   "name": "Moldova", 
   "repositories": {
-   "joyent/node": 2, 
+   "joyent/node": 5, 
+   "Automattic/socket.io": 1, 
+   "yiisoft/yii2": 6, 
+   "symfony/symfony": 1, 
+   "diaspora/diaspora": 1, 
+   "laravel/framework": 1,
    "cdnjs/cdnjs": 1, 
    "strongloop/express": 1, 
    "elasticsearch/elasticsearch": 1, 
-   "yiisoft/yii2": 4, 
    "rust-lang/rust": 18, 
    "rogerwang/node-webkit": 1
   }, 
   "languages": {
-   "JavaScript": 4, 
+   "Ruby": 1, 
+   "JavaScript": 8, 
    "Java": 1, 
    "C++": 1, 
    "Rust": 18, 
-   "PHP": 4
+   "PHP": 8
   }, 
   "lat": 46.9161023, 
   "lng": 28.4165225, 
@@ -4199,14 +4181,17 @@
  {
   "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2", 
   "repositories": {
+   "yiisoft/yii2": 9,
    "driftyco/ionic": 2
   }, 
   "languages": {
+   "PHP": 9,
    "JavaScript": 2
   }, 
   "lat": 34.9823018, 
   "lng": 33.1451285, 
   "users": [
+   "stepanselyuk",
    "anri-asaturov"
   ]
  }, 
@@ -4727,20 +4712,6 @@
    "terminalmage", 
    "markmarco16", 
    "abr4xas"
-  ]
- }, 
- {
-  "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 - K\u0131br\u0131s", 
-  "repositories": {
-   "yiisoft/yii2": 9
-  }, 
-  "languages": {
-   "PHP": 9
-  }, 
-  "lat": 35.1695632, 
-  "lng": 33.1396402839342, 
-  "users": [
-   "stepanselyuk"
   ]
  }, 
  {
