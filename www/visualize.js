@@ -3,7 +3,7 @@
 $(document).ready(function() {
   "use strict";
 
-  var CURRENT_QUALTER = '2015Q3';
+  var CURRENT_QUALTER = 'all';
   var REPOSITORIES = [];
   var ALL_COUNTRIES;
   var LANGUAGES = [
