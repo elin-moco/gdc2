@@ -24,14 +24,27 @@ the unique set of locations to geocode.
     make githubarchive
 
     # This step takes a few hours with decently fast disks
-    make loaddb
+    make new-loaddb
+
+    # Dump top 200 reops and generate sql queries for later use
+    make new-toprepos
+
+    # Dump user ids contributed in top 200 repos
+    make new-topusers
+
+    # Save repo data from github API
+    make save-repos
+
+    # Save user data from github API, this would take several hours due to API rate limit
+    make save-users
 
     # This step geocodes any locations not already geocoded (`locations.json`)
-    make geocode
+    make new-geocode
 
     # Generate the `events.json` file used for the visualization
-    make jsonify
+    make new-jsonify
 
+For archive data before Dec 2014, the tasks to run in order would be githubarchive, loaddb, toprepos, geocode, jsonify.
 
 
 Credits
