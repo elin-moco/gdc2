@@ -25,7 +25,7 @@ function sortCountriesByContributionType(type, countries) {
 }
 
 if (typeof process !== 'undefined') {
-  var countries = require('./events.json');
+  var countries = require('./events-all.json');
   var arg = process.argv[2];
   sortCountriesByContributionType(arg, countries)
   countries.forEach(function(country) {

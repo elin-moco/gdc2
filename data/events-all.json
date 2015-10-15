@@ -1266,48 +1266,55 @@
       "nostra13/Android-Universal-Image-Loader": 1,
       "joyent/node": 4,
       "facebook/facebook-ios-sdk": 1,
-      "twbs/bootstrap": 3,
+      "twbs/bootstrap": 5,
       "Homebrew/homebrew": 7,
       "mitsuhiko/flask": 2,
       "twbs/bootstrap-sass": 1,
       "plataformatec/devise": 1,
       "rogerwang/node-webkit": 2,
-      "octocat/Spoon-Knife": 8,
-      "atom/atom": 2,
-      "caskroom/homebrew-cask": 9,
+      "octocat/Spoon-Knife": 10,
+      "atom/atom": 6,
+      "caskroom/homebrew-cask": 10,
       "yiisoft/yii2": 30,
-      "meteor/meteor": 2,
-      "driftyco/ionic": 4,
+      "meteor/meteor": 3,
+      "driftyco/ionic": 6,
       "google/iosched": 1,
       "emberjs/ember.js": 1,
-      "jlord/patchwork": 17,
+      "jlord/patchwork": 20,
       "facebook/hhvm": 3,
       "angular-ui/bootstrap": 2,
-      "laravel/framework": 9,
-      "JuliaLang/julia": 5,
+      "laravel/framework": 10,
       "npm/npm": 6,
       "edx/edx-platform": 5,
-      "cms-sw/cmssw": 10,
-      "Dogfalo/materialize": 2,
-      "deis/deis": 1,
-      "FortAwesome/Font-Awesome": 2,
+      "Dogfalo/materialize": 13,
       "Semantic-Org/Semantic-UI": 12,
-      "odoo/odoo": 29,
-      "facebook/react-native": 6,
-      "rdpeng/ExData_Plotting1": 2,
+      "rdpeng/ExData_Plotting1": 5,
+      "angular/material": 3,
+      "LeaVerou/awesomplete": 1,
+      "facebook/react-native": 12,
+      "deis/deis": 1,
+      "odoo/odoo": 30,
+      "vhf/free-programming-books": 1,
+      "cms-sw/cmssw": 10,
+      "FortAwesome/Font-Awesome": 5,
+      "jekyll/jekyll": 4,
+      "udacity/create-your-own-adventure": 4,
+      "JuliaLang/julia": 46,
+      "ipython/ipython": 3,
       "h5bp/Front-end-Developer-Interview-Questions": 1,
+      "akka/akka": 1,
       "cocos2d/cocos2d-x": 7,
       "angular/angular": 4,
+      "symfony/symfony": 4,
       "joomla/joomla-cms": 1,
-      "akka/akka": 1,
       "robbyrussell/oh-my-zsh": 1,
+      "rapid7/metasploit-framework": 1,
+      "angular/angular.js": 2,
       "facebook/react": 1,
       "FreeCodeCamp/freecodecamp": 1,
-      "angular/material": 1,
       "django/django": 3,
       "docker/docker": 3,
       "ansible/ansible": 1,
-      "angular/angular.js": 1,
       "Microsoft/TypeScript": 3,
       "sindresorhus/awesome": 1,
       "FreeCodeCamp/FreeCodeCamp": 2,
@@ -1316,18 +1323,18 @@
     },
     "languages": {
       "Java": 2,
-      "Python": 48,
-      "JavaScript": 41,
+      "Python": 52,
+      "JavaScript": 53,
       "C++": 28,
-      "CoffeeScript": 2,
+      "CoffeeScript": 6,
       "Objective-C": 1,
       "Rust": 4,
-      "PHP": 41,
-      "Ruby": 28,
-      "CSS": 19,
-      "Julia": 5,
-      "HTML": 17,
-      "null": 8,
+      "PHP": 46,
+      "Ruby": 34,
+      "CSS": 34,
+      "Julia": 46,
+      "HTML": 24,
+      "null": 16,
       "TypeScript": 7,
       "Scala": 1,
       "Shell": 1,
@@ -1340,9 +1347,10 @@
       "zzamboni",
       "emagar",
       "Faryshta",
+      "Ismael-VC",
       "moylop260",
+      "dpsanders",
       "elgubenis",
-      "josemoralesp",
       "xiam",
       "maturano"
     ]
@@ -1544,8 +1552,8 @@
       "JavaScript": 1,
       "Ruby": 5,
       "CSS": 1,
-      "null": 3,
       "HTML": 1,
+      "null": 3,
       "PHP": 1,
       "C++": 1
     },
@@ -4292,6 +4300,7 @@
       "joomla/joomla-cms": 5,
       "neovim/neovim": 1,
       "udacity/create-your-own-adventure": 1,
+      "twbs/bootstrap": 1,
       "rg3/youtube-dl": 1,
       "atom/electron": 2,
       "jlord/patchwork": 7,
@@ -4308,7 +4317,7 @@
       "CoffeeScript": 9,
       "PHP": 43,
       "Ruby": 9,
-      "CSS": 3,
+      "CSS": 4,
       "DM": 8,
       "null": 2,
       "VimL": 1,
@@ -5252,38 +5261,6 @@
       "SaulBurgos",
       "njaen",
       "mdelaossa"
-    ]
-  },
-  {
-    "name": "Молдова",
-    "repositories": {
-      "joyent/node": 3,
-      "Automattic/socket.io": 1,
-      "yiisoft/yii2": 4,
-      "symfony/symfony": 2,
-      "diaspora/diaspora": 1,
-      "laravel/framework": 2,
-      "gitlabhq/gitlabhq": 1,
-      "golang/go": 1,
-      "ansible/ansible": 1
-    },
-    "languages": {
-      "Ruby": 2,
-      "PHP": 8,
-      "JavaScript": 4,
-      "Go": 1,
-      "Python": 1
-    },
-    "lat": 47.286747,
-    "lng": 28.5110236,
-    "users": [
-      "smart--petea",
-      "hpetru",
-      "vova07",
-      "tjomamokrenko",
-      "ngreduce",
-      "parfumix",
-      "vitaliel"
     ]
   },
   {
@@ -7960,36 +7937,41 @@
   {
     "name": "Moldova",
     "repositories": {
-      "joyent/node": 2,
+      "joyent/node": 5,
+      "Automattic/socket.io": 1,
+      "yiisoft/yii2": 11,
+      "symfony/symfony": 3,
+      "diaspora/diaspora": 1,
+      "laravel/framework": 2,
       "cdnjs/cdnjs": 1,
       "strongloop/express": 1,
       "elasticsearch/elasticsearch": 1,
-      "yiisoft/yii2": 7,
       "rust-lang/rust": 37,
       "rogerwang/node-webkit": 1,
       "octocat/Spoon-Knife": 1,
       "facebook/react-native": 1,
-      "symfony/symfony": 1,
       "adobe/brackets": 1,
+      "gitlabhq/gitlabhq": 1,
+      "golang/go": 2,
       "django/django": 1,
       "OpenRA/OpenRA": 5,
       "docker/docker": 1,
       "nvbn/thefuck": 1,
+      "ansible/ansible": 1,
       "callemall/material-ui": 3,
-      "Homebrew/homebrew": 2,
-      "golang/go": 1
+      "Homebrew/homebrew": 2
     },
     "languages": {
-      "JavaScript": 9,
+      "Ruby": 4,
+      "JavaScript": 13,
       "Java": 1,
       "C++": 1,
       "Rust": 37,
-      "PHP": 8,
+      "PHP": 16,
       "CSS": 1,
-      "Go": 2,
-      "Python": 2,
-      "C#": 5,
-      "Ruby": 2
+      "Go": 3,
+      "Python": 3,
+      "C#": 5
     },
     "lat": 46.9161023,
     "lng": 28.4165225,
@@ -8257,18 +8239,37 @@
   {
     "name": "Κύπρος",
     "repositories": {
+      "yiisoft/yii2": 9,
       "driftyco/ionic": 2,
-      "rails/rails": 2
+      "cakephp/cakephp": 1,
+      "jlord/patchwork": 1,
+      "rails/rails": 3,
+      "joomla/joomla-cms": 1,
+      "cjwirth/awesome-ios-ui": 3,
+      "django/django": 1,
+      "Polymer/polymer": 3,
+      "FreeCodeCamp/freecodecamp": 15
     },
     "languages": {
+      "PHP": 11,
       "JavaScript": 2,
-      "Ruby": 2
+      "Ruby": 3,
+      "HTML": 19,
+      "Python": 1,
+      "null": 3
     },
     "lat": 34.9823018,
     "lng": 33.1451285,
     "users": [
+      "stepanselyuk",
       "anri-asaturov",
-      "mariosant"
+      "Yiannistaos",
+      "angkyria",
+      "dgutov",
+      "skywinder",
+      "marios-zindilis",
+      "mariosant",
+      "cristianvnica"
     ]
   },
   {
@@ -8544,7 +8545,8 @@
       "laravel/framework": 1,
       "callemall/material-ui": 4,
       "FortAwesome/Font-Awesome": 1,
-      "joomla/joomla-cms": 1
+      "joomla/joomla-cms": 1,
+      "CocoaPods/Specs": 1
     },
     "languages": {
       "Java": 1,
@@ -8553,7 +8555,8 @@
       "PHP": 17,
       "Ruby": 1,
       "CSS": 1,
-      "HTML": 1
+      "HTML": 1,
+      "Groff": 1
     },
     "lat": 41.32373,
     "lng": 63.9528098,
@@ -9313,37 +9316,6 @@
       "FavioVazquez",
       "nelson6e65",
       "guamacherox"
-    ]
-  },
-  {
-    "name": "Κύπρος - Kıbrıs",
-    "repositories": {
-      "yiisoft/yii2": 9,
-      "cakephp/cakephp": 1,
-      "rails/rails": 1,
-      "joomla/joomla-cms": 1,
-      "cjwirth/awesome-ios-ui": 3,
-      "django/django": 1,
-      "Polymer/polymer": 3,
-      "FreeCodeCamp/freecodecamp": 15
-    },
-    "languages": {
-      "PHP": 11,
-      "Ruby": 1,
-      "Python": 1,
-      "HTML": 18,
-      "null": 3
-    },
-    "lat": 35.1695632,
-    "lng": 33.1396402839342,
-    "users": [
-      "stepanselyuk",
-      "Yiannistaos",
-      "dgutov",
-      "mamchenkov",
-      "skywinder",
-      "marios-zindilis",
-      "cristianvnica"
     ]
   },
   {
@@ -10625,20 +10597,6 @@
     ]
   },
   {
-    "name": "Κυπριακή Δημοκρατία",
-    "repositories": {
-      "jlord/patchwork": 1
-    },
-    "languages": {
-      "HTML": 1
-    },
-    "lat": 34.9823018,
-    "lng": 33.1451285,
-    "users": [
-      "angkyria"
-    ]
-  },
-  {
     "name": "San Marino",
     "repositories": {
       "gorhill/uBlock": 1
@@ -10743,54 +10701,6 @@
     ]
   },
   {
-    "name": "Estados Unidos Mexicanos",
-    "repositories": {
-      "octocat/Spoon-Knife": 2,
-      "twbs/bootstrap": 2,
-      "LeaVerou/awesomplete": 1,
-      "vhf/free-programming-books": 1,
-      "facebook/react-native": 6,
-      "Dogfalo/materialize": 11,
-      "driftyco/ionic": 2,
-      "FortAwesome/Font-Awesome": 3,
-      "jekyll/jekyll": 4,
-      "JuliaLang/julia": 41,
-      "udacity/create-your-own-adventure": 4,
-      "odoo/odoo": 1,
-      "ipython/ipython": 3,
-      "angular/material": 2,
-      "laravel/framework": 1,
-      "meteor/meteor": 1,
-      "atom/atom": 4,
-      "symfony/symfony": 4,
-      "rapid7/metasploit-framework": 1,
-      "caskroom/homebrew-cask": 1,
-      "jlord/patchwork": 3,
-      "rdpeng/ExData_Plotting1": 3,
-      "angular/angular.js": 1
-    },
-    "languages": {
-      "Python": 4,
-      "JavaScript": 12,
-      "Julia": 41,
-      "HTML": 7,
-      "null": 8,
-      "PHP": 5,
-      "Ruby": 6,
-      "CSS": 15,
-      "CoffeeScript": 4
-    },
-    "lat": 22.5000485,
-    "lng": -100.0000375,
-    "users": [
-      "Ismael-VC",
-      "chukitow",
-      "javierbyte",
-      "dpsanders",
-      "cristianangulo"
-    ]
-  },
-  {
     "name": "Zambia",
     "repositories": {
       "CocoaPods/Specs": 1,
@@ -10868,20 +10778,6 @@
     ]
   },
   {
-    "name": "dinajpur",
-    "repositories": {
-      "twbs/bootstrap": 1
-    },
-    "languages": {
-      "CSS": 1
-    },
-    "lat": 24.4768783,
-    "lng": 90.2932426,
-    "users": [
-      "mmhyamin"
-    ]
-  },
-  {
     "name": "Jersey",
     "repositories": {
       "Homebrew/homebrew": 2
@@ -10937,20 +10833,6 @@
     "lng": 50.9999999,
     "users": [
       "salarmehr"
-    ]
-  },
-  {
-    "name": "O'zbekiston",
-    "repositories": {
-      "CocoaPods/Specs": 1
-    },
-    "languages": {
-      "Groff": 1
-    },
-    "lat": 41.32373,
-    "lng": 63.9528098,
-    "users": [
-      "Shamsiddin"
     ]
   },
   {

@@ -136,20 +136,6 @@
   ]
  }, 
  {
-  "name": "dinajpur", 
-  "repositories": {
-   "twbs/bootstrap": 1
-  }, 
-  "languages": {
-   "CSS": 1
-  }, 
-  "lat": 24.4768783, 
-  "lng": 90.2932426, 
-  "users": [
-   "mmhyamin"
-  ]
- }, 
- {
   "name": "Magyarorsz\u00e1g", 
   "repositories": {
    "rails/rails": 1, 
@@ -745,50 +731,59 @@
  {
   "name": "M\u00e9xico", 
   "repositories": {
+   "rails/rails": 2, 
    "npm/npm": 3, 
    "edx/edx-platform": 2, 
-   "Dogfalo/materialize": 1, 
+   "Dogfalo/materialize": 5, 
+   "akka/akka": 1, 
    "cocos2d/cocos2d-x": 1, 
+   "rdpeng/ExData_Plotting1": 3, 
+   "angular/material": 1, 
    "joyent/node": 2, 
-   "facebook/react-native": 4, 
+   "facebook/react-native": 6, 
    "angular/angular": 1, 
+   "symfony/symfony": 4, 
    "odoo/odoo": 5, 
    "joomla/joomla-cms": 1, 
    "Homebrew/homebrew": 1, 
-   "akka/akka": 1, 
+   "octocat/Spoon-Knife": 1, 
    "robbyrussell/oh-my-zsh": 1, 
    "cms-sw/cmssw": 1, 
-   "atom/atom": 1, 
+   "atom/atom": 5, 
+   "rapid7/metasploit-framework": 1, 
+   "caskroom/homebrew-cask": 1, 
    "yiisoft/yii2": 6, 
-   "FortAwesome/Font-Awesome": 1, 
-   "rails/rails": 2, 
-   "driftyco/ionic": 3, 
+   "FortAwesome/Font-Awesome": 3, 
+   "meteor/meteor": 1, 
+   "driftyco/ionic": 4, 
+   "angular/angular.js": 1, 
    "facebook/react": 1, 
-   "jlord/patchwork": 1, 
-   "JuliaLang/julia": 3, 
+   "udacity/create-your-own-adventure": 2, 
+   "jlord/patchwork": 4, 
+   "JuliaLang/julia": 31, 
    "laravel/framework": 4
   }, 
   "languages": {
    "TypeScript": 1, 
    "Scala": 1, 
    "Python": 7, 
-   "JavaScript": 11, 
-   "Julia": 3, 
-   "CoffeeScript": 1, 
-   "HTML": 2, 
+   "JavaScript": 17, 
+   "Julia": 31, 
+   "CoffeeScript": 5, 
+   "HTML": 7, 
    "Shell": 1, 
-   "null": 2, 
-   "PHP": 11, 
-   "Ruby": 3, 
-   "CSS": 1, 
+   "null": 7, 
+   "PHP": 15, 
+   "Ruby": 5, 
+   "CSS": 6, 
    "C++": 2
   }, 
   "lat": 22.5000485, 
   "lng": -100.0000375, 
   "users": [
-   "elgubenis", 
-   "Faryshta", 
-   "josemoralesp"
+   "Ismael-VC", 
+   "dpsanders", 
+   "elgubenis"
   ]
  }, 
  {
@@ -877,8 +872,8 @@
    "laravel/framework": 1
   }, 
   "languages": {
-   "null": 3, 
    "HTML": 1, 
+   "null": 3, 
    "PHP": 1, 
    "C++": 1
   }, 
@@ -2179,6 +2174,7 @@
    "neovim/neovim": 1, 
    "npm/npm": 1, 
    "udacity/create-your-own-adventure": 1, 
+   "twbs/bootstrap": 1, 
    "atom/atom": 6, 
    "rg3/youtube-dl": 1, 
    "yiisoft/yii2": 2, 
@@ -2195,8 +2191,9 @@
    "C++": 2, 
    "CoffeeScript": 6, 
    "HTML": 3, 
+   "null": 1, 
    "PHP": 16, 
-   "null": 1
+   "CSS": 1
   }, 
   "lat": 24.4768783, 
   "lng": 90.2932426, 
@@ -2725,23 +2722,6 @@
   "lng": -84.8700308, 
   "users": [
    "SaulBurgos"
-  ]
- }, 
- {
-  "name": "\u041c\u043e\u043b\u0434\u043e\u0432\u0430", 
-  "repositories": {
-   "golang/go": 1, 
-   "laravel/framework": 1
-  }, 
-  "languages": {
-   "Go": 1, 
-   "PHP": 1
-  }, 
-  "lat": 47.286747, 
-  "lng": 28.5110236, 
-  "users": [
-   "parfumix", 
-   "ngreduce"
   ]
  }, 
  {
@@ -4225,41 +4205,22 @@
   ]
  }, 
  {
-  "name": "Estados Unidos Mexicanos", 
+  "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2", 
   "repositories": {
-   "octocat/Spoon-Knife": 1, 
-   "meteor/meteor": 1, 
-   "udacity/create-your-own-adventure": 2, 
-   "Dogfalo/materialize": 4, 
-   "atom/atom": 4, 
-   "symfony/symfony": 4, 
-   "rapid7/metasploit-framework": 1, 
-   "caskroom/homebrew-cask": 1, 
-   "FortAwesome/Font-Awesome": 2, 
-   "JuliaLang/julia": 28, 
-   "facebook/react-native": 2, 
-   "jlord/patchwork": 3, 
-   "driftyco/ionic": 1, 
-   "rdpeng/ExData_Plotting1": 3, 
-   "angular/angular.js": 1, 
-   "angular/material": 1
+   "cjwirth/awesome-ios-ui": 3, 
+   "django/django": 1, 
+   "Polymer/polymer": 3
   }, 
   "languages": {
-   "JavaScript": 6, 
-   "Julia": 28, 
-   "CoffeeScript": 4, 
-   "HTML": 5, 
-   "null": 5, 
-   "PHP": 4, 
-   "Ruby": 2, 
-   "CSS": 5
+   "Python": 1, 
+   "HTML": 3, 
+   "null": 3
   }, 
-  "lat": 22.5000485, 
-  "lng": -100.0000375, 
+  "lat": 34.9823018, 
+  "lng": 33.1451285, 
   "users": [
-   "Ismael-VC", 
-   "dpsanders", 
-   "cristianangulo"
+   "skywinder", 
+   "marios-zindilis"
   ]
  }, 
  {
@@ -4841,25 +4802,6 @@
   ]
  }, 
  {
-  "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 - K\u0131br\u0131s", 
-  "repositories": {
-   "cjwirth/awesome-ios-ui": 3, 
-   "django/django": 1, 
-   "Polymer/polymer": 3
-  }, 
-  "languages": {
-   "Python": 1, 
-   "HTML": 3, 
-   "null": 3
-  }, 
-  "lat": 35.1695632, 
-  "lng": 33.1396402839342, 
-  "users": [
-   "skywinder", 
-   "marios-zindilis"
-  ]
- }, 
- {
   "name": "\u53f0\u7063", 
   "repositories": {
    "mozilla-b2g/gaia": 730, 
@@ -5211,6 +5153,8 @@
  {
   "name": "Moldova", 
   "repositories": {
+   "golang/go": 1, 
+   "laravel/framework": 1,
    "django/django": 1, 
    "OpenRA/OpenRA": 3, 
    "rust-lang/rust": 2, 
@@ -5218,10 +5162,11 @@
    "nvbn/thefuck": 1
   }, 
   "languages": {
-   "Go": 1, 
+   "Go": 2, 
    "Python": 2, 
    "Rust": 2, 
-   "C#": 3
+   "C#": 3,
+   "PHP": 1
   }, 
   "lat": 46.9161023, 
   "lng": 28.4165225, 
