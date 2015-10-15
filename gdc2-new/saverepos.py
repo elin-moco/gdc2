@@ -16,9 +16,9 @@ def fetch_repo(repo_name):
           'name': repo.name,
           'full_name': repo.full_name,
           'description': repo.description,
-          'created_at': repo.created_at.strftime("%Y-%m-%d %H:%M:%S"),
-          'updated_at': repo.updated_at.strftime("%Y-%m-%d %H:%M:%S"),
-          'pushed_at': repo.pushed_at.strftime("%Y-%m-%d %H:%M:%S"),
+          'created_at': repo.created_at.strftime("%Y-%m-%d %H:%M:%S") if repo.created_at else None,
+          'updated_at': repo.updated_at.strftime("%Y-%m-%d %H:%M:%S") if repo.updated_at else None,
+          'pushed_at': repo.pushed_at.strftime("%Y-%m-%d %H:%M:%S") if repo.pushed_at else None,
           'size': repo.size,
           'stargazers_count': repo.stargazers_count,
           'watchers': repo.watchers,
@@ -39,8 +39,9 @@ if __name__ == '__main__':
     try:
         with open(OUTFILE, 'r') as f:
             repos = json.loads(f.read())
-        print "Found %s with %d repos" %(OUTFILE, len(outs.keys()))
-    except Exception:
+        print "Found %s with %d repos" %(OUTFILE, len(repos.keys()))
+    except Exception as e:
+        print e
         repos = {}
 
     with open(sys.argv[1]) as f:
