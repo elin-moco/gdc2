@@ -8,7 +8,7 @@ This is an interactive visualization of the location of contributors to the
 top repositories on GitHub.
 
 
-Developing
+Analyze Data
 ----------
 
 The provided Makefile has everything needed to fetch data from
@@ -20,7 +20,7 @@ There are also some interesting `queries` for doing things like fetching
 top 200 repositories, gathering up all the relevant events or getting
 the unique set of locations to geocode.
 
-    # This first step takes hours and downloads ~6.5GB
+    # This first step takes hours and downloads ~6.5GB, change the Makefile for customizing data range
     make githubarchive
 
     # This step takes a few hours with decently fast disks
