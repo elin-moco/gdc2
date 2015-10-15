@@ -666,45 +666,54 @@
  {
   "name": "M\u00e9xico", 
   "repositories": {
-   "rust-lang/rust": 2, 
-   "JuliaLang/julia": 1, 
    "npm/npm": 3, 
    "edx/edx-platform": 1, 
-   "jlord/patchwork": 4, 
-   "cms-sw/cmssw": 3, 
-   "Dogfalo/materialize": 1, 
+   "Dogfalo/materialize": 8, 
+   "Semantic-Org/Semantic-UI": 2, 
+   "rust-lang/rust": 2, 
+   "rdpeng/ExData_Plotting1": 2, 
+   "saltstack/salt": 5, 
+   "angular/material": 1, 
+   "LeaVerou/awesomplete": 1, 
+   "facebook/react-native": 6, 
+   "twbs/bootstrap": 2, 
    "deis/deis": 1, 
+   "odoo/odoo": 15, 
+   "vhf/free-programming-books": 1, 
+   "Homebrew/homebrew": 1, 
+   "octocat/Spoon-Knife": 1, 
+   "cms-sw/cmssw": 3, 
    "caskroom/homebrew-cask": 6, 
    "yiisoft/yii2": 21, 
-   "FortAwesome/Font-Awesome": 1, 
-   "Semantic-Org/Semantic-UI": 2, 
-   "odoo/odoo": 14, 
+   "FortAwesome/Font-Awesome": 2, 
+   "jekyll/jekyll": 4, 
    "rails/rails": 2, 
-   "facebook/react-native": 2, 
-   "Homebrew/homebrew": 1, 
-   "rdpeng/ExData_Plotting1": 2, 
+   "driftyco/ionic": 1, 
+   "udacity/create-your-own-adventure": 2, 
+   "jlord/patchwork": 4, 
+   "JuliaLang/julia": 14, 
+   "ipython/ipython": 3, 
    "h5bp/Front-end-Developer-Interview-Questions": 1, 
-   "saltstack/salt": 5, 
-   "laravel/framework": 1
+   "laravel/framework": 2
   }, 
   "languages": {
-   "Python": 21, 
-   "JavaScript": 7, 
-   "Julia": 1, 
+   "Python": 25, 
+   "JavaScript": 13, 
+   "Julia": 14, 
    "Rust": 2, 
-   "HTML": 5, 
+   "HTML": 7, 
    "C++": 3, 
-   "null": 3, 
-   "PHP": 22, 
-   "Ruby": 9, 
-   "CSS": 1
+   "null": 6, 
+   "PHP": 23, 
+   "Ruby": 13, 
+   "CSS": 11
   }, 
   "lat": 22.5000485, 
   "lng": -100.0000375, 
   "users": [
    "Faryshta", 
-   "moylop260", 
-   "zzamboni"
+   "Ismael-VC", 
+   "moylop260"
   ]
  }, 
  {
@@ -917,20 +926,6 @@
    "ashking", 
    "avo-odoo", 
    "cod-odoo"
-  ]
- }, 
- {
-  "name": "\u039a\u03c5\u03c0\u03c1\u03b9\u03b1\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1", 
-  "repositories": {
-   "jlord/patchwork": 1
-  }, 
-  "languages": {
-   "HTML": 1
-  }, 
-  "lat": 34.9823018, 
-  "lng": 33.1451285, 
-  "users": [
-   "angkyria"
   ]
  }, 
  {
@@ -4156,6 +4151,27 @@
   ]
  }, 
  {
+  "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2", 
+  "repositories": {
+   "cakephp/cakephp": 1, 
+   "jlord/patchwork": 1, 
+   "rails/rails": 1, 
+   "joomla/joomla-cms": 1
+  }, 
+  "languages": {
+   "PHP": 2, 
+   "Ruby": 1, 
+   "HTML": 1
+  }, 
+  "lat": 34.9823018, 
+  "lng": 33.1451285, 
+  "users": [
+   "Yiannistaos", 
+   "angkyria", 
+   "dgutov"
+  ]
+ }, 
+ {
   "name": "Angola", 
   "repositories": {
    "saltstack/salt": 1
@@ -4167,43 +4183,6 @@
   "lng": 17.5691241, 
   "users": [
    "eburghar"
-  ]
- }, 
- {
-  "name": "Estados Unidos Mexicanos", 
-  "repositories": {
-   "octocat/Spoon-Knife": 1, 
-   "twbs/bootstrap": 2, 
-   "LeaVerou/awesomplete": 1, 
-   "vhf/free-programming-books": 1, 
-   "facebook/react-native": 4, 
-   "Dogfalo/materialize": 7, 
-   "driftyco/ionic": 1, 
-   "FortAwesome/Font-Awesome": 1, 
-   "jekyll/jekyll": 4, 
-   "JuliaLang/julia": 13, 
-   "udacity/create-your-own-adventure": 2, 
-   "odoo/odoo": 1, 
-   "ipython/ipython": 3, 
-   "angular/material": 1, 
-   "laravel/framework": 1
-  }, 
-  "languages": {
-   "Python": 4, 
-   "JavaScript": 6, 
-   "Julia": 13, 
-   "HTML": 2, 
-   "null": 3, 
-   "PHP": 1, 
-   "Ruby": 4, 
-   "CSS": 10
-  }, 
-  "lat": 22.5000485, 
-  "lng": -100.0000375, 
-  "users": [
-   "Ismael-VC", 
-   "chukitow", 
-   "javierbyte"
   ]
  }, 
  {
@@ -4702,25 +4681,6 @@
   "lng": 27.5599164, 
   "users": [
    "derekblair"
-  ]
- }, 
- {
-  "name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 - K\u0131br\u0131s", 
-  "repositories": {
-   "cakephp/cakephp": 1, 
-   "rails/rails": 1, 
-   "joomla/joomla-cms": 1
-  }, 
-  "languages": {
-   "PHP": 2, 
-   "Ruby": 1
-  }, 
-  "lat": 35.1695632, 
-  "lng": 33.1396402839342, 
-  "users": [
-   "Yiannistaos", 
-   "dgutov", 
-   "mamchenkov"
   ]
  }, 
  {
