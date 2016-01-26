@@ -3,6 +3,7 @@ repoLists.push(require('./repos-2014Q4.json'));
 repoLists.push(require('./repos-2015Q1.json'));
 repoLists.push(require('./repos-2015Q2.json'));
 repoLists.push(require('./repos-2015Q3.json'));
+repoLists.push(require('./repos-2015Q4.json'));
 
 function intersection(a, b)
 {

@@ -9,7 +9,7 @@ githubarchive:
 	mkdir -p githubarchive
 
 	# Requires bash 4+ MacOS users may need to update or something
-	cd githubarchive && wget 'http://data.githubarchive.org/2014-{10..12}-{01..31}-{0..23}.json.gz'
+	cd githubarchive && wget 'http://data.githubarchive.org/2015-{10..12}-{01..31}-{0..23}.json.gz'
 
 
 ### tasks for new githubarchive format (start from Jan 2015) ###
