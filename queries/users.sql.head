@@ -1,0 +1,17 @@
+.headers on
+.mode csv
+
+
+-- Gets the contributions
+-- for any of the top 200 repos
+SELECT DISTINCT
+  actor_login, COUNT(actor_login) AS cnt
+FROM event
+WHERE
+  type IN (
+    'IssuesEvent',
+    'PublicEvent',
+    'PullRequestEvent',
+    'PushEvent'
+  )
+  AND repo_url IN (

@@ -1,0 +1,4 @@
+  )
+  AND "type" IS NOT NULL
+  AND repo_url IS NOT NULL
+  AND actor_login IS NOT NULL;

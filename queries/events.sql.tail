@@ -1,0 +1,7 @@
+  )
+  AND repository_fork = 0
+  AND "type" IS NOT NULL
+  AND repository_language IS NOT NULL
+  AND repository_url IS NOT NULL
+  AND actor_attributes_login IS NOT NULL
+  AND actor_attributes_location IS NOT NULL;

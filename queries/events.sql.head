@@ -1,0 +1,22 @@
+.headers on
+.mode csv
+
+
+-- Gets the "contribution" events
+-- for any of the top 200 repos
+SELECT "type",
+  repository_language,
+  repository_url,
+  actor_attributes_login,
+  actor_attributes_type,
+  actor_attributes_gravatar_id,
+  actor_attributes_location
+FROM event
+WHERE
+  type IN (
+    'IssuesEvent',
+    'PublicEvent',
+    'PullRequestEvent',
+    'PushEvent'
+  )
+  AND repository_url IN (
