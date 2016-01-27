@@ -1,104 +1,368 @@
-United States of America:	181675
-Deutschland:	85454
-Italia:	27284
-Україна:	19990
-United Kingdom:	14487
-Canada:	13244
-日本:	9998
-中国:	6948
-España:	5876
-Polska:	4121
-Nederland:	3648
-India:	3552
-Australia:	2509
-Россия:	2032
-Sverige:	1781
-Argentina:	1419
-Brasil:	1213
-Česko:	1102
-台灣:	924
-Hong Kong:	775
-Norge:	767
-Republic of Ireland:	703
-South Africa:	579
-Suomi:	538
-France:	461
-Portugal:	445
-Danmark:	430
-Eesti:	428
-Colombia:	412
-Slovenija:	411
-България:	405
-Türkiye:	343
-대한민국:	319
-מדינת ישראל:	304
-New Zealand/Aotearoa:	272
-México:	210
-Magyarország:	204
-Venezuela:	202
-Singapura:	197
-Lietuva:	195
-Panamá:	183
-Hrvatska:	156
-Philippines:	134
-ပြည်ထောင်စုမြန်မာနိုင်ငံတော်‌:	127
-Costa Rica:	125
-România:	102
-Беларусь:	97
-Slovensko:	71
-‏ايران‎:	70
-Indonesia:	66
-Việt Nam:	59
-Србија:	46
-Chile:	42
-Malta:	38
-Uruguay:	38
-Malaysia:	38
-Latvija:	37
-تونس:	34
-Luxembourg:	32
-বাংলাদেশ:	26
-Puerto Rico:	22
-Казахстан:	22
-Nigeria:	20
-Armenia:	18
-Κύπρος - Kıbrıs:	15
-Cuba:	14
-Ecuador:	12
-الأردن:	12
-საქართველო:	12
-الإمارات العربيّة المتّحدة:	11
-Ísland:	11
-Kenya:	10
-Moldova:	8
-Oʻzbekiston:	8
-República Dominicana:	8
-Algérie الجزائر:	7
-Maldives:	6
-Isle of Man:	6
-Azərbaycan:	5
-حدود ‏المملكة العربية السعودية‎:	5
-Guatemala:	5
-Crna Gora:	4
-Sesel:	4
-조선민주주의인민공화국/North Korea:	4
-Paraguay:	3
-Liberia:	3
-Gibraltar:	2
-Nicaragua:	2
-Македонија:	2
-Barbados:	2
-Bolivia:	2
-Bosna i Hercegovina:	2
-Κύπρος:	2
-Ghana:	2
-Maroc المغرب:	2
-‏الكويت‎:	2
-Yemen:	1
-Honduras:	1
-Uganda:	1
-Монгол улс:	1
-O'zbekiston:	1
-Молдова:	1
-Bermuda:	1
-ประเทศไทย:	1
+San Francisco CA:	221
+Paris France:	113
+Germany:	105
+Burlington VT:	104
+San Francisco:	81
+Berlin:	71
+Seattle WA:	69
+Eindhoven The Netherlands:	65
+London UK:	62
+Tampa FL:	62
+Barcelona Spain:	59
+Mountain View CA:	56
+Los Angeles CA:	56
+Netherlands:	52
+San Diego:	49
+São Paulo Brazil:	49
+Toronto Ontario:	45
+San Francisco Bay Area:	37
+Columbia MD:	37
+Toronto Canada:	36
+Toronto:	36
+Toulouges France:	35
+Bern Switzerland:	32
+Denver CO:	31
+Amsterdam:	31
+New York NY:	30
+Italy:	28
+United States:	27
+France Cergy:	27
+New York New York:	24
+Brooklyn NY:	23
+Iowa City IA:	23
+New York City:	22
+Ottawa:	22
+Copenhagen Denmark:	22
+Ottawa Canada:	22
+Sydney Australia:	21
+Christchurch New Zealand:	21
+PA:	21
+Prague Czech republic:	20
+Romania:	20
+Kharkiv Ukraine:	20
+Campobello di Licata Sicily Italy:	20
+Tokyo Japan:	20
+Espoo FI:	19
+Boston MA:	18
+Hannover Germany:	18
+Portland OR:	18
+Amsterdam The Netherlands:	18
+San Francisco USA:	17
+Montevideo Uruguay:	16
+Córdoba Argentina:	15
+Santa Clara CA:	15
+Tacoma WA:	15
+Austin TX:	15
+Berlin Germany:	14
+UK:	14
+Rochester NY:	14
+Nashville TN:	13
+Berkeley CA:	12
+Vancouver:	12
+Kirkland WA:	12
+London:	12
+Barcelona:	12
+Savannah GA:	12
+Paris:	12
+China:	11
+Oxford:	10
+Russia:	10
+Kiev Ukraine:	10
+Canada:	10
+Hoofddorp:	10
+New York:	10
+Pittsburgh PA:	9
+Cupertino CA:	9
+Shanghai China:	9
+NYC:	9
+Poland Warsaw:	9
+Munich - Germany:	9
+Taiwan:	9
+Montréal QC:	9
+Tokyo:	9
+Chicago IL:	9
+Munich:	8
+Arkansas:	8
+United Kingdom:	8
+Yerevan Armenia:	8
+Taipei:	8
+Belgium:	8
+Aachen Germany:	8
+Seattle:	7
+Stockholm Sweden:	7
+Stuttgart Germany:	7
+Somerville MA:	7
+France:	7
+Kraków Poland:	7
+Dallas Texas:	7
+Munich Germany:	7
+Athens Greece:	7
+Japan:	6
+Austin Tx:	6
+Lithuania:	6
+Moscow Russia:	6
+Phoenix AZ USA:	6
+Madrid:	6
+Australia:	6
+Boston:	6
+Israel:	6
+Minsk Belarus:	6
+Cologne Germany:	6
+Brussels Belgium:	5
+Europe:	5
+china:	5
+St Petersburg Russia:	5
+Bandung:	5
+Zagreb Croatia:	5
+Ukraine Kiev:	5
+Chicago USA:	5
+Toronto ON Canada:	5
+Amherst MA:	5
+Iran:	4
+Amsterdam NL:	4
+Madison WI:	4
+Madrid ES:	4
+Hamburg Germany:	4
+Los Angeles:	4
+Singapore:	4
+Maine:	4
+Xiamen Fujian China:	4
+Hong Kong:	4
+Dallas TX:	4
+USA:	4
+Vancouver BC:	4
+Lyon France:	4
+Zurich:	4
+Chattanooga TN:	4
+Colorado:	4
+Belo Horizonte MG:	4
+Turkey:	4
+Silicon Valley:	3
+Ann Arbor MI:	3
+Newbury MA:	3
+Ontario Canada:	3
+Budapest:	3
+Sunnyvale CA:	3
+Belo Horizonte Brasil:	3
+Bochum Germany:	3
+Sweden:	3
+Tel Aviv:	3
+Oxford UK:	3
+杭州:	3
+Lardero La Rioja Spain:	3
+Lexington KY:	3
+São Paulo - SP / Brazil:	3
+Bergen Norway:	3
+Hangzhou China:	3
+Switzerland:	3
+Beijing:	3
+Earth:	3
+Toronto ON:	3
+Buenos Aires Argentina:	3
+Greece:	3
+Atlanta GA:	3
+Poland:	3
+Brazil:	2
+Jakarta:	2
+Saskatoon Canada:	2
+Vancouver Canada:	2
+Rio de Janeiro:	2
+Bangalore:	2
+Argentina:	2
+California:	2
+Ely United Kingdom:	2
+Timisoara Romania:	2
+New Zealand:	2
+England:	2
+Montréal Québec:	2
+Hamburg:	2
+Budapest Hungary:	2
+Boulder CO:	2
+beijing:	2
+Brasil:	2
+Madison WI USA:	2
+Amersfoort the Netherlands:	2
+Utrecht:	2
+South Korea:	2
+Vienna:	2
+Sesimbra Portugal:	2
+Colombia:	2
+Bangalore India:	2
+Leicester UK:	2
+Bavaria Germany:	2
+Uk:	2
+Macau:	2
+Brighton:	2
+Geneva Switzerland:	2
+London United Kingdom:	2
+Bulgaria:	2
+chennai:	2
+Mumbai India:	2
+Bali:	2
+philadelphia:	2
+London England:	2
+Los Gatos CA:	2
+Mendoza Argentina:	2
+Venezuela:	2
+Wuhan China:	2
+Vancouver BC Canada:	2
+Greater Sudbury Ontario Canada:	2
+India:	2
+Lisbon Portugal:	2
+Chennai:	2
+Russia St Petersburg:	2
+Stuttgart:	2
+Warsaw Poland:	2
+New Hampshire:	2
+Finland:	2
+Southampton UK:	2
+XiaMen China:	2
+Atlanta Georgia:	1
+Grenoble France:	1
+Aarhus Denmark:	1
+Chicago:	1
+Russia Saint Petersburg:	1
+Split:	1
+Thailand:	1
+Ukraine L'viv:	1
+Helsinki:	1
+Saint Petersburg Russia:	1
+Riga Latvia:	1
+Vienna Austria:	1
+Portugal:	1
+Nederlands:	1
+Potrero SF:	1
+Stockholm:	1
+Guernsey:	1
+Agadir:	1
+Osaka Japan:	1
+Basel Switzerland:	1
+Phoenix Arizona:	1
+Cluj-Napoca Romania:	1
+Minneapolis MN:	1
+Rennes:	1
+Santa Fe Argentina:	1
+Brussels:	1
+Bristol United Kingdom:	1
+Santiago Chile:	1
+Kuala Lumpur Malaysia:	1
+Colima Mexico:	1
+Spain:	1
+Memphis TN:	1
+Bellevue WA:	1
+Nantes France:	1
+Columbus OH:	1
+São Paulo - SP - Brazil:	1
+Florida USA:	1
+Hungary Budapest:	1
+Miami:	1
+Philadelphia:	1
+Detroit MI:	1
+Paris/France:	1
+The Netherlands:	1
+Victoria BC Canada:	1
+Ukraine:	1
+Fort Worth Texas:	1
+Milwaukee:	1
+Birmingham UK:	1
+Düsseldorf:	1
+Boise ID:	1
+Madrid (Spain):	1
+Baltimore MD:	1
+Ukraine Dnepropetrovsk:	1
+Newcastle UK:	1
+Toulouse France:	1
+北京:	1
+Mesa AZ:	1
+Newcastle:	1
+Jyväskylä Finland:	1
+Sofia Bulgaria:	1
+Ferrara Italy:	1
+Louisville KY:	1
+Plovdiv Bulgaria:	1
+Chicago IL USA:	1
+Cleveland Ohio:	1
+Arlington VA:	1
+Maryland:	1
+Los Altos CA:	1
+Levallois-Perret France:	1
+Germany Karlsruhe:	1
+Vienna/Austria:	1
+Cologne:	1
+Denver:	1
+Egypt:	1
+Prague:	1
+Mountain View:	1
+Amsterdam Netherlands:	1
+Halifax Nova Scotia Canada:	1
+Huddersfield UK:	1
+Zurich Switzerland:	1
+nyc:	1
+Italia:	1
+Istanbul Turkey:	1
+Washington DC:	1
+Auckland NZ:	1
+Pune:	1
+Florianopolis/SC/Brazil:	1
+luxembourg:	1
+San Francisco CA USA:	1
+Russia Moscow:	1
+Graz Austria:	1
+Brisbane:	1
+Catania Italy:	1
+Frankfurt Germany:	1
+Columbus Ohio:	1
+New Jersey:	1
+Omaha NE:	1
+SoCal:	1
+Eugene OR:	1
+Beijing China:	1
+Alamo CA:	1
+Gilowice Poland:	1
+hangzhou:	1
+Leverkusen - Germany:	1
+Rotterdam:	1
+Tulsa OK:	1
+Dublin Ireland:	1
+NJ:	1
+Lausanne:	1
+Manchester UK:	1
+Montreal Canada:	1
+Xiamen:	1
+Hilversum The Netherlands:	1
+South Africa:	1
+Glasgow Scotland UK:	1
+Oslo Norway:	1
+Compiègne France:	1
+Montréal:	1
+Ahmedabad India:	1
+Rio de Janeiro Brazil:	1
+Ljubljana Slovenia:	1
+Lille France:	1
+Dominican Republic:	1
+Mumbai:	1
+Dhaka Bangladesh:	1
+Granada:	1
+Aix-en-Provence:	1
+Perth Australia:	1
+Spinea - VE - Italy:	1
+São Paulo SP Brasil:	1
+russia:	1
+Rio de Janeiro RJ Brazil:	1
+San Jose CA:	1
+Philadelphia PA:	1
+Espoo Finland:	1
+Utah:	1
+Zürich Switzerland:	1
+Boston MA USA:	1
+Melbourne:	1
+Frankfurt am Main Germany:	1
+Massachusetts USA:	1
+York PA:	1
+Porto Alegre RS Brazil:	1
+Vermont:	1
+Bay Area:	1
+Seoul Korea:	1
+Sri Lanka:	1
+Grand Rapids MI:	1
+Germany Berlin:	1

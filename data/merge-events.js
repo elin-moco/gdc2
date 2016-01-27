@@ -3,6 +3,7 @@ qualters.push(require('./events-2014Q4.json'));
 qualters.push(require('./events-2015Q1.json'));
 qualters.push(require('./events-2015Q2.json'));
 qualters.push(require('./events-2015Q3.json'));
+qualters.push(require('./events-2015Q4.json'));
 
 var countries = {};
 
